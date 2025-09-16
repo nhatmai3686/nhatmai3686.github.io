@@ -34,7 +34,7 @@ p {
 }
 
 .title {
-  font-size: 36px;
+  font-size: 30px;
   font-family: "museo_sans300";
   color: #fff !important;
   font-weight: 500;
@@ -50,7 +50,7 @@ p {
 
 .location {
   margin-top: 14px;
-  margin-bottom: 28px;
+  margin-bottom: 16px;
   font-size: 16px;
   font-family: "museo_sans500";
   color: rgb(94, 97, 109) !important;
@@ -130,7 +130,7 @@ p {
 }
 
 .job-title {
-  margin-top: 12px;
+  margin-top: 6px;
   font-size: 16px;
   font-family: "museo_sans900";
   font-weight: bolder;
@@ -186,6 +186,7 @@ ul li p::before {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  cursor: pointer;
 }
 
 .hlink a,
@@ -194,7 +195,7 @@ ul li p::before {
 }
 
 .app-logo {
-  width: 30px;
-  height: 30px;
+  width: 45px;
+  height: 45px;
   border-radius: 8px;
 }
